@@ -35,5 +35,4 @@ jobs:
     steps:
       - name: "Info"
         run: |
-          echo "Version [env]: ${env.version}"
           echo "Version [out]: ${{ needs.release.outputs.version }}"
