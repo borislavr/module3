@@ -72,7 +72,7 @@ jobs:
     uses: netcracker/qubership-workflow-hub/.github/workflows/release-drafter.yml@main
     with:
       version: ${{ github.event.client_payload.version }}
-      publish: false
+      publish: true
 
 # ==============================================================================
   # release:
